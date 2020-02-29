@@ -1,0 +1,141 @@
+@import '_variables';
+
+.component {
+    margin-bottom: 5em;
+    // margin-top: 7em;
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+}
+
+.txt-wgreen {
+    color: rgb(7, 88, 7);
+}
+
+.txt-white {
+    color: #fff;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    background: #fff;
+    border-radius: 4px;
+}
+
+.box-card {
+    // width: 300px;
+    margin-bottom: 20px;
+
+    p, legend {
+      color: $dark-sky;
+    }
+
+    .uneven-img {
+      max-height: 160px;
+    }
+
+    img {
+      max-height: 150px;
+      max-width: 100%;
+    }
+  }
+  
+// home 
+  .box-card {
+    max-width: 320px;
+    margin-bottom: 2.5em;
+
+    .uneven-img {
+      max-height: 160px;
+    }
+
+    img {
+      max-height: 120px;
+      max-width: 100%;
+    }
+  }
+
+  .bkoi-home-left-content {
+    padding-left: 12em;
+  }
+
+  .bkoi-home-right-content {
+    padding-left: 5em;
+  }
+
+// home
+
+// css color block
+
+.pricing-highlight {
+  p {
+    padding-right: 1em;
+  }
+}
+
+.color-block {
+  // float: left;
+  width: 12px;
+  height: 12px;
+  margin: 5px 25px;
+  border: none;
+}
+
+
+.color-sky {
+  background: $color-block-sky;
+}
+
+.color-paste {
+  background: $color-block-paste;
+}
+
+.color-violet {
+  background: $color-block-violet;
+}
+
+.color-white {
+  background: $white;
+}
+
+// css color block
+
+//basic grid layout
+
+.bkoi-grid-img-left {
+  padding-right: 2em;
+}
+
+.bkoi-grid-content-left {
+
+}
+
+.bkoi-grid-img-left, .bkoi-grid-content-right {
+  padding-left: 3em;
+}
+
+// basic grid layout
+
+// layout-gap
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.mb-2 {
+  margin-bottom: 2em;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.pb-1 {
+  padding-bottom: 1em;
+}
+
+.pb-2 {
+  padding-bottom: 2em;
+}

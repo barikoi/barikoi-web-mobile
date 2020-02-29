@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router, NavigationStart, NavigationEnd, NavigationError, Event } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,29 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'barikoi-web-mobile';
+
+  isSearch: boolean;
+
+  constructor( private router: Router) {}
+
+    ngOnInit(): void {
+        this.router.events.subscribe((event: Event) => {
+            if (event instanceof NavigationStart) {
+                // Show loading indicator
+                // this.router.url === '/' ? this.isHome = true : this.isHome = false;
+            }
+
+            if (event instanceof NavigationEnd) {
+                // Hide loading indicator
+                this.router.url === '/search'
+                    ? (this.isSearch = true)
+                    : (this.isSearch = false);
+            }
+
+            if (event instanceof NavigationError) {
+                // Present error to user
+                console.error(event.error);
+            }
+        });
+    }
 }

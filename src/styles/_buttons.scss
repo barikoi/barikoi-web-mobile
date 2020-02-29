@@ -1,0 +1,134 @@
+@import '_variables';
+// bkoi custom buttons
+
+// search-bar form
+.bkoi-search {
+  form {
+    margin-top: 2.5em;
+    position: relative;
+    // top: 50%;
+    // left: 50%;
+    /*     transform: translate(-50%,-50%);
+        transition: all 1s; */
+    /*     width: 50px; */
+    font-size: 1.15em;
+    height: 45px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 4px solid white;
+    padding: 5px;
+
+    width: 319px;
+    // max-width: 350px;
+    cursor: pointer;
+    display: block;
+    /*   background: #07051a; */
+    color: white;
+
+    input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 35px;
+      line-height: 40px;
+      outline: 0;
+      border: 0;
+      /*     display: none; */
+      border-radius: 20px;
+      padding: 0 20px;
+    }
+
+    mat-icon {
+      box-sizing: border-box;
+      padding: 4px;
+      width: 45px;
+      height: 37.5px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-radius: 10px;
+      color: #fff;
+      text-align: center;
+      font-size: 2em;
+      transition: all 1s;
+      background: linear-gradient(to right, $neon-green, $lime-green);
+    }
+  }
+}
+
+// Barikoi Buttons
+
+.bkoi-btn {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 10px;
+
+  &:focus {
+    outline: none;
+  }
+  &:active {
+      outline: none;
+  }
+}
+
+.bkoi-btn-primary {
+
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  padding: 0.8em 4.0em .8em 2.2em;
+  // background: linear-gradient(to right, $neon-green, $lime-green);
+  height: 3em;
+  border: none;
+  border-radius: 63px;
+  color: white;
+  transition: .2s;
+
+  background: transparent linear-gradient(94deg, $neon-green 0%, $lime-green 97%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 16px #415D6F29;
+  width: 15em;
+
+  &:before,
+  &:after {     content: "\e315";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    width: 2.8em;
+    font-family: 'Material Icons', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+
+    transition: .2s;
+    transform-origin: 50% 60%;
+  }
+}
+
+.btn-primary-circle {
+  &:after {
+    content: "\e5e1";
+    background: white;
+    color: $lime-green;
+    border-radius: 64px;
+    box-sizing: border-box;
+    padding: 8px 0px;
+    width: 34px;
+    height: 32.5px;
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+  &:hover:after {
+    -webkit-animation: none;
+    animation: none;
+  }
+}

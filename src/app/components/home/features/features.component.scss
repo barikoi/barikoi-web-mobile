@@ -1,0 +1,22 @@
+@import '_variables';
+
+.bkoi-bus {
+    .home-business {
+  
+    //   padding-top: 7em;
+    h2 {
+      margin-bottom: 1.2em;
+    }
+  
+      h1 {
+        opacity: 90%;
+      }
+
+      .box-card {
+        p, legend {
+          // opacity: 65%;
+          color: $dark-sky !important;
+        }
+      }
+    }
+  }

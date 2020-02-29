@@ -1,0 +1,16 @@
+<div class="bkoi-navbar" [ngClass]="[isHome ? '' : 'nav-margin-bottom' ]">
+    <mat-toolbar [ngClass]="[isHome ? 'navbar-fixed' : 'navbar']">
+      <mat-toolbar-row>
+        <span routerLink="/" class="bari bkoi-logo">Bari<span class="koi">koi</span></span>
+  
+        <span class="example-spacer"></span>
+  
+
+        <button mat-button routerLink="/signup">
+          <i class="material-icons">
+            menu
+            </i>
+        </button>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </div>

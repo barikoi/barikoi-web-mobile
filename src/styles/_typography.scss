@@ -1,0 +1,112 @@
+h1, h2, h3, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, h3 {
+    margin: 12px 0;
+}
+
+// header
+h1 {
+    font-size: 35px;
+    font-weight: 700;
+    opacity: 90%;
+    // line-height: 80;
+}
+
+// subheader
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 80%;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+p, a, small {
+    font-family: 'Rubik', sans-serif;
+}
+
+// body text
+p {
+    font-size: 14px;
+    // font: 32px/44px;
+    line-height: 1.4;
+    // font-weight: 400;
+}
+
+
+.p-light-smaller, .p-light-small, .p-light-default {
+    font-weight: 300;
+}
+
+.p-light-smaller {
+    font-size: 12.5px;
+}
+
+.p-light-small {
+    font-size: 13px;
+}
+
+.p-light-medium {
+    font-size: 13.5px;
+}
+
+.p-normal {
+    font-weight: 400;
+}
+
+.p-medium {
+    font-weight: 500;
+}
+
+p, small {
+    margin: 10px 0;
+}
+
+legend {
+    margin: 10px 0;
+}
+
+.legend-medium {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a {
+    // font-size: 16px;
+    color: $link;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+small {
+    font-weight: 300;
+}
+
+legend {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.op-90 {
+    opacity: 90%;
+    margin-bottom: 0;
+}
+
+.op-80 {
+    opacity: 80%;
+}
